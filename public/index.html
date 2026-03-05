@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>🤖 Local AI Engineer - Gemini</title>
+    <style>
+        body { font-family: sans-serif; background: #f0f2f5; padding: 20px; }
+        .card { max-width: 850px; margin: auto; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .field { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; }
+        input, select, textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; padding: 12px; background: #007bff; color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; }
+        button:disabled { background: #ccc; }
+        #terminal { background: #1e1e1e; color: #00ff00; padding: 15px; font-family: monospace; height: 400px; overflow-y: auto; border-radius: 4px; margin-top: 20px; white-space: pre-wrap; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>🤖 Local AI Agent (Gemini Pro)</h2>
+        <div class="field">
+            <label>Đường dẫn dự án tuyệt đối</label>
+            <input type="text" id="projectPath" placeholder="/home/user/projects/my-app">
+        </div>
+        <div style="display: flex; gap: 15px;">
+            <div class="field" style="flex: 1;">
+                <label>Ngôn ngữ</label>
+                <select id="projectType">
+                    <option value="go">Go (Golang)</option>
+                    <option value="php">PHP (Laravel)</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+            </div>
+            <div class="field" style="flex: 1;">
+                <label>Loại tác vụ</label>
+                <select id="taskType">
+                    <option value="fix_code">Sửa Code & Tự Test</option>
+                    <option value="summarize">Tóm tắt & Giải thích</option>
+                </select>
+            </div>
+        </div>
+        <div class="field">
+            <label>Yêu cầu (Instruction)</label>
+            <textarea id="instruction" rows="4"></textarea>
+        </div>
+        <div class="field">
+            <label>Ràng buộc (Constraints)</label>
+            <input type="text" id="expectedOutput" placeholder="VD: Message commit fix: ...">
+        </div>
+        <button id="runBtn" onclick="run()">KÍCH HOẠT AI AGENT</button>
+        <div id="terminal">--- Chờ lệnh ---</div>
+    </div>
+    <script>
+        async function run() {
+            const btn = document.getElementById('runBtn');
+            const term = document.getElementById('terminal');
+            btn.disabled = true;
+            term.innerText = "Đang khởi động...\n";
+            
+            try {
+                const res = await fetch('/api/run-agent', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({
+                        projectPath: document.getElementById('projectPath').value,
+                        projectType: document.getElementById('projectType').value,
+                        taskType: document.getElementById('taskType').value,
+                        instruction: document.getElementById('instruction').value,
+                        expectedOutput: document.getElementById('expectedOutput').value
+                    })
+                });
+                const reader = res.body.getReader();
+                const decoder = new TextDecoder();
+                while (true) {
+                    const {done, value} = await reader.read();
+                    if (done) break;
+                    term.innerText += decoder.decode(value);
+                    term.scrollTop = term.scrollHeight;
+                }
+            } catch (e) { term.innerText += "\nLỗi kết nối server."; }
+            btn.disabled = false;
+        }
+    </script>
+</body>
+</html>
