@@ -1,0 +1,164 @@
+Config files search order, if no --config:
+  - /home/cuongnguyen1/projects/local-ai-agent/.aider.conf.yml 
+  - /home/cuongnguyen1/.aider.conf.yml 
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loaded /home/cuongnguyen1/projects/local-ai-agent/.env
+Too soon to check version: 0.2 hours
+You can skip this check with --no-gitignore
+Added .env to .gitignore
+Command Line Args:   --model gemini/gemini-2.5-flash --message Xin chào, 1+1 bằng mấy? --map-tokens 0 --no-suggest-shell-commands --yes --verbose
+Defaults:
+  --set-env:         []
+  --api-key:         []
+  --model-settings-file:.aider.model.settings.yml
+  --model-metadata-file:.aider.model.metadata.json
+  --cache-keepalive-pings:0
+  --map-refresh:     auto
+  --map-multiplier-no-files:2
+  --input-history-file:/home/cuongnguyen1/projects/local-ai-agent/.aider.input.history
+  --chat-history-file:/home/cuongnguyen1/projects/local-ai-agent/.aider.chat.history.md
+  --user-input-color:#00cc00
+  --tool-error-color:#FF2222
+  --tool-warning-color:#FFA500
+  --assistant-output-color:#0088ff
+  --code-theme:      default
+  --aiderignore:     /home/cuongnguyen1/projects/local-ai-agent/.aiderignore
+  --lint-cmd:        []
+  --test-cmd:        []
+  --voice-format:    wav
+  --voice-language:  en
+  --encoding:        utf-8
+  --line-endings:    platform
+  --env-file:        /home/cuongnguyen1/projects/local-ai-agent/.env
+
+Option settings:
+  - 35turbo: False
+  - 4: False
+  - 4_turbo: False
+  - 4o: False
+  - add_gitignore_files: False
+  - aiderignore: /home/cuongnguyen1/projects/local-ai-agent/.aiderignore
+  - alias: None
+  - analytics: None
+  - analytics_disable: False
+  - analytics_log: None
+  - analytics_posthog_host: None
+  - analytics_posthog_project_api_key: None
+  - anthropic_api_key: None
+  - api_key: []
+  - apply: None
+  - apply_clipboard_edits: False
+  - assistant_output_color: #0088ff
+  - attribute_author: None
+  - attribute_co_authored_by: True
+  - attribute_commit_message_author: False
+  - attribute_commit_message_committer: False
+  - attribute_committer: None
+  - auto_accept_architect: True
+  - auto_commits: True
+  - auto_lint: True
+  - auto_test: False
+  - cache_keepalive_pings: 0
+  - cache_prompts: False
+  - chat_history_file: /home/cuongnguyen1/projects/local-ai-agent/.aider.chat.history.md
+  - chat_language: None
+  - check_model_accepts_settings: True
+  - check_update: True
+  - code_theme: default
+  - commit: False
+  - commit_language: None
+  - commit_prompt: None
+  - completion_menu_bg_color: None
+  - completion_menu_color: None
+  - completion_menu_current_bg_color: None
+  - completion_menu_current_color: None
+  - config: None
+  - copy_paste: False
+  - dark_mode: False
+  - deepseek: False
+  - detect_urls: True
+  - dirty_commits: True
+  - disable_playwright: False
+  - dry_run: False
+  - edit_format: None
+  - editor: None
+  - editor_edit_format: None
+  - editor_model: None
+  - encoding: utf-8
+  - env_file: /home/cuongnguyen1/projects/local-ai-agent/.env
+  - exit: False
+  - fancy_input: True
+  - file: None
+  - files: []
+  - git: True
+  - git_commit_verify: False
+  - gitignore: True
+  - gui: False
+  - haiku: False
+  - input_history_file: /home/cuongnguyen1/projects/local-ai-agent/.aider.input.history
+  - install_main_branch: False
+  - just_check_update: False
+  - light_mode: False
+  - line_endings: platform
+  - lint: False
+  - lint_cmd: []
+  - list_models: None
+  - llm_history_file: None
+  - load: None
+  - map_multiplier_no_files: 2
+  - map_refresh: auto
+  - map_tokens: 0
+  - max_chat_history_tokens: None
+  - message: Xin chào, 1+1 bằng mấy?
+  - message_file: None
+  - mini: False
+  - model: gemini/gemini-2.5-flash
+  - model_metadata_file: .aider.model.metadata.json
+  - model_settings_file: .aider.model.settings.yml
+  - multiline: False
+  - notifications: False
+  - notifications_command: None
+  - o1_mini: False
+  - o1_preview: False
+  - openai_api_base: None
+  - openai_api_deployment_id: None
+  - openai_api_key: None
+  - openai_api_type: None
+  - openai_api_version: None
+  - openai_organization_id: None
+  - opus: False
+  - pretty: True
+  - read: None
+  - reasoning_effort: None
+  - restore_chat_history: False
+  - set_env: []
+  - shell_completions: None
+  - show_diffs: False
+  - show_model_warnings: True
+  - show_prompts: False
+  - show_release_notes: None
+  - show_repo_map: False
+  - skip_sanity_check_repo: False
+  - sonnet: False
+  - stream: True
+  - subtree_only: False
+  - suggest_shell_commands: False
+  - test: False
+  - test_cmd: []
+  - thinking_tokens: None
+  - timeout: None
+  - tool_error_color: #FF2222
+  - tool_output_color: None
+  - tool_warning_color: #FFA500
+  - upgrade: False
+  - user_input_color: #00cc00
+  - verbose: True
+  - verify_ssl: True
+  - vim: False
+  - voice_format: wav
+  - voice_input_device: None
+  - voice_language: en
+  - watch_files: False
+  - weak_model: None
+  - yes_always: True
+

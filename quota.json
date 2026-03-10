@@ -1,0 +1,6998 @@
+[
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/api_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "7000",
+            "effectiveLimit": "7000"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "API requests",
+    "metric": "generativelanguage.googleapis.com/api_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/batch_embed_contents_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "Batch Embed Content API requests",
+    "metric": "generativelanguage.googleapis.com/batch_embed_contents_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/batch_embed_text_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "Batch Embed Text API requests",
+    "metric": "generativelanguage.googleapis.com/batch_embed_text_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/bidi_generate_content_paid_tier_3_sessions",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/10min/{project}"
+      }
+    ],
+    "displayName": "Bidi generate content active sessions (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/bidi_generate_content_paid_tier_3_sessions",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/create_file_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "3000",
+            "effectiveLimit": "3000"
+          }
+        ],
+        "unit": "1/min/{project}"
+      }
+    ],
+    "displayName": "Create file API requests",
+    "metric": "generativelanguage.googleapis.com/create_file_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/create_file_search_store_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "60",
+            "effectiveLimit": "60"
+          }
+        ],
+        "unit": "1/min/{project}"
+      }
+    ],
+    "displayName": "Create FileSearchStore API requests",
+    "metric": "generativelanguage.googleapis.com/create_file_search_store_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/create_tuning_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          }
+        ],
+        "unit": "1/min/{project}"
+      }
+    ],
+    "displayName": "Create tuned model API requests",
+    "metric": "generativelanguage.googleapis.com/create_tuning_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_batches_paid_tier_1",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active EmbedContentBatch batches (paid tier 1)",
+    "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_batches_paid_tier_1",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_batches_paid_tier_2",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active EmbedContentBatch batches (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_batches_paid_tier_2",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_batches_paid_tier_3",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active EmbedContentBatch batches (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_batches_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_tokens_paid_tier_1",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "500000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "500000"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active EmbedContentBatch # of tokens (paid tier 1)",
+    "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_tokens_paid_tier_1",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_tokens_paid_tier_2",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "5000000"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active EmbedContentBatch # of tokens (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_tokens_paid_tier_2",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_tokens_paid_tier_3",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "10000000"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active EmbedContentBatch # of tokens (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/embed_content_batch_active_concurrent_tokens_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_free_tier_requests",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "1000"
+          }
+        ],
+        "unit": "1/d/{project}/{user}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_free_tier_requests",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "100"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_free_tier_requests",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "1000"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_free_tier_requests",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "100"
+          }
+        ],
+        "unit": "1/min/{project}/{user}/{model}"
+      }
+    ],
+    "displayName": "Embed Content API requests per model for free tier",
+    "metric": "generativelanguage.googleapis.com/embed_content_free_tier_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_free_tier_tokens",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "30000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "30000"
+          },
+          {
+            "defaultLimit": "30000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "30000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Embed Content API tokens per model for free tier",
+    "metric": "generativelanguage.googleapis.com/embed_content_free_tier_tokens",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_2_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "5",
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "5000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_2_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1000",
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Embed Content API requests per model for paid tier 2",
+    "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_2_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_2_tokens",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "10000",
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "5000000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Embed Content API tokens per model for paid tier 2",
+    "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_2_tokens",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_3_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "10",
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "20000",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "20000"
+          },
+          {
+            "defaultLimit": "20000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "20000"
+          },
+          {
+            "defaultLimit": "20000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "20000"
+          },
+          {
+            "defaultLimit": "20000",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "20000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_3_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1000",
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Embed Content API requests per model for paid tier 3",
+    "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_3_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_3_tokens",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "10000",
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "20000000",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "20000000"
+          },
+          {
+            "defaultLimit": "20000000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "20000000"
+          },
+          {
+            "defaultLimit": "20000000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "20000000"
+          },
+          {
+            "defaultLimit": "20000000",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "20000000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Embed Content API tokens per model for paid tier 3",
+    "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_3_tokens",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1000",
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{user}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1",
+            "effectiveLimit": "1"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "3000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1000",
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "5",
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "3000"
+          }
+        ],
+        "unit": "1/min/{project}/{user}/{model}"
+      }
+    ],
+    "displayName": "Embed Content API requests per model for paid tier 1",
+    "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_tokens",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "10000",
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "embedding-001"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-embedding-1.0"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-embedding-2"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "text-embedding-004"
+            },
+            "effectiveLimit": "1000000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Embed Content API tokens per model for paid tier 1",
+    "metric": "generativelanguage.googleapis.com/embed_content_paid_tier_tokens",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_content_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "Embed Content API requests",
+    "metric": "generativelanguage.googleapis.com/embed_content_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/embed_text_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "Embed Text API requests",
+    "metric": "generativelanguage.googleapis.com/embed_text_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/file_storage_bytes",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "21474836480",
+            "effectiveLimit": "21474836480"
+          }
+        ],
+        "unit": "1/{project}"
+      }
+    ],
+    "displayName": "File storage quota",
+    "metric": "generativelanguage.googleapis.com/file_storage_bytes",
+    "unit": "By"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_batches_paid_tier_1",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "c4n6t9g1su"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "k8f2m5p0rw"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "v7y3b1x9zq"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active GenerateContentBatch batches (paid tier 1)",
+    "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_batches_paid_tier_1",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_batches_paid_tier_2",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "c4n6t9g1su"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "k8f2m5p0rw"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "v7y3b1x9zq"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active GenerateContentBatch batches (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_batches_paid_tier_2",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_batches_paid_tier_3",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "c4n6t9g1su"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "k8f2m5p0rw"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "v7y3b1x9zq"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active GenerateContentBatch batches (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_batches_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_tokens_paid_tier_1",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "c4n6t9g1su"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-1p"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "100000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "100000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "25000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "25000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "2000000",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "2000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "k8f2m5p0rw"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "v7y3b1x9zq"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active GenerateContentBatch # of tokens (paid tier 1)",
+    "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_tokens_paid_tier_1",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_tokens_paid_tier_2",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "c4n6t9g1su"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "400000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "400000000"
+          },
+          {
+            "defaultLimit": "500000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "500000000"
+          },
+          {
+            "defaultLimit": "400000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-1p"
+            },
+            "effectiveLimit": "400000000"
+          },
+          {
+            "defaultLimit": "400000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "400000000"
+          },
+          {
+            "defaultLimit": "400000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "400000000"
+          },
+          {
+            "defaultLimit": "400000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "400000000"
+          },
+          {
+            "defaultLimit": "400000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "400000"
+          },
+          {
+            "defaultLimit": "400000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "400000000"
+          },
+          {
+            "defaultLimit": "100000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "100000"
+          },
+          {
+            "defaultLimit": "500000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "500000000"
+          },
+          {
+            "defaultLimit": "400000000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "400000000"
+          },
+          {
+            "defaultLimit": "270000000",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "270000000"
+          },
+          {
+            "defaultLimit": "500000000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "500000000"
+          },
+          {
+            "defaultLimit": "250000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "250000000"
+          },
+          {
+            "defaultLimit": "500000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "500000000"
+          },
+          {
+            "defaultLimit": "500000000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "500000000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "k8f2m5p0rw"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "v7y3b1x9zq"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active GenerateContentBatch # of tokens (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_tokens_paid_tier_2",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_tokens_paid_tier_3",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "c4n6t9g1su"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "5000000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "5000000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "5000000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "5000000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-1p"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "100000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "100000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "750000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "750000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "1000000000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "1000000000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "k8f2m5p0rw"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "v7y3b1x9zq"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Active GenerateContentBatch # of tokens (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/generate_content_batch_active_concurrent_tokens_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "computer-use-preview"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            }
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gdm-eval-model-mow"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            }
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "250000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "250000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            }
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "250000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "250000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            }
+          },
+          {
+            "defaultLimit": "250000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "250000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-pro"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            }
+          },
+          {
+            "defaultLimit": "250000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "250000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            }
+          },
+          {
+            "defaultLimit": "250000",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "250000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-1337ae"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-ft9d3c"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-fw3t9e"
+            }
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "3000000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            }
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-pro"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            }
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Generate content free tier input token count",
+    "metric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "15",
+            "effectiveLimit": "15"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "7s9d0xhwo8"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "18000",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "18000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "dimensions": {
+              "model": "computer-use-preview"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            }
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "f116dzcgxx"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "60",
+            "dimensions": {
+              "model": "gdm-eval-model-mow"
+            },
+            "effectiveLimit": "60"
+          },
+          {
+            "defaultLimit": "6",
+            "dimensions": {
+              "model": "gdm-eval-model-u"
+            },
+            "effectiveLimit": "6"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            }
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            }
+          },
+          {
+            "defaultLimit": "3",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "3"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "75",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "75"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            }
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-pro"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            }
+          },
+          {
+            "defaultLimit": "15",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "15"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            }
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-1337ae"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-ft9d3c"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-fw3t9e"
+            }
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "j2ycnyml2h"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "15",
+            "dimensions": {
+              "model": "learnlm-2.0-flash-experimental"
+            },
+            "effectiveLimit": "15"
+          },
+          {
+            "defaultLimit": "60",
+            "dimensions": {
+              "model": "med-gemini"
+            },
+            "effectiveLimit": "60"
+          },
+          {
+            "defaultLimit": "3600",
+            "dimensions": {
+              "model": "qgsAKtKtlw"
+            },
+            "effectiveLimit": "3600"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1000"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1001"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1002"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1004"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1500",
+            "effectiveLimit": "1500"
+          },
+          {
+            "defaultLimit": "2520000",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "2520000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "computer-use-preview"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            }
+          },
+          {
+            "defaultLimit": "2400",
+            "dimensions": {
+              "model": "gdm-eval-model-mow"
+            },
+            "effectiveLimit": "2400"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            }
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            }
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            }
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            }
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-pro"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            }
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            }
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "1500",
+            "dimensions": {
+              "model": "learnlm-2.0-flash-experimental"
+            },
+            "effectiveLimit": "1500"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "med-gemini"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "864000",
+            "dimensions": {
+              "model": "qgsAKtKtlw"
+            },
+            "effectiveLimit": "864000"
+          },
+          {
+            "defaultLimit": "1728000",
+            "dimensions": {
+              "model": "xh7Bm2Kp9w"
+            },
+            "effectiveLimit": "1728000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1000"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1001"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1002"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1004"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Number of requests made to a specific model, in the free tier.",
+    "metric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_2_input_token_count",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "250000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "250000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "25000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "25000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "1500000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "1500000"
+          },
+          {
+            "defaultLimit": "100000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "100000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "25000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "25000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "500000",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "500000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-1337ae"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-ft9d3c"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-fw3t9e"
+            }
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "3000000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "unreleased-iolr"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Generate content paid tier 2 input token count",
+    "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_2_input_token_count",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_2_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "360",
+            "effectiveLimit": "360"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "7s9d0xhwo8"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "18000",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "18000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "6",
+            "dimensions": {
+              "model": "deep-research-exp-10-2025"
+            },
+            "effectiveLimit": "6"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "f116dzcgxx"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "6",
+            "dimensions": {
+              "model": "gdm-eval-model-u"
+            },
+            "effectiveLimit": "6"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "20000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "20000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-1337ae"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-ft9d3c"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-fw3t9e"
+            }
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "j2ycnyml2h"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "3600",
+            "dimensions": {
+              "model": "qgsAKtKtlw"
+            },
+            "effectiveLimit": "3600"
+          },
+          {
+            "defaultLimit": "3600",
+            "dimensions": {
+              "model": "xh7Bm2Kp9w"
+            },
+            "effectiveLimit": "3600"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_2_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "30000",
+            "effectiveLimit": "30000"
+          },
+          {
+            "defaultLimit": "2520000",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "2520000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "8640",
+            "dimensions": {
+              "model": "deep-research-exp-10-2025"
+            },
+            "effectiveLimit": "8640"
+          },
+          {
+            "defaultLimit": "7200",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "7200"
+          },
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "100000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "100000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "100000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "100000"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "2500",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "2500"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "100000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "100000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "350000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "350000"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "100000",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "100000"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "864000",
+            "dimensions": {
+              "model": "qgsAKtKtlw"
+            },
+            "effectiveLimit": "864000"
+          },
+          {
+            "defaultLimit": "864000",
+            "dimensions": {
+              "model": "xh7Bm2Kp9w"
+            },
+            "effectiveLimit": "864000"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Generate content requests per model (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_2_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_3_input_token_count",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "8000000",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "8000000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "deep-research-exp-10-2025"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "250000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "250000"
+          },
+          {
+            "defaultLimit": "30000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "30000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "30000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "30000000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "25000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "25000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "30000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "30000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "20000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "20000000"
+          },
+          {
+            "defaultLimit": "8000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "8000000"
+          },
+          {
+            "defaultLimit": "8000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "8000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "8000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "8000000"
+          },
+          {
+            "defaultLimit": "20000000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "20000000"
+          },
+          {
+            "defaultLimit": "5000000",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "5000000"
+          },
+          {
+            "defaultLimit": "8000000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "8000000"
+          },
+          {
+            "defaultLimit": "10000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "10000000"
+          },
+          {
+            "defaultLimit": "30000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "30000000"
+          },
+          {
+            "defaultLimit": "8000000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "8000000"
+          },
+          {
+            "defaultLimit": "8000000",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "8000000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-1337ae"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-ft9d3c"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-fw3t9e"
+            }
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "3000000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Generate content paid tier 3 input token count",
+    "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_3_input_token_count",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_3_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "360",
+            "effectiveLimit": "360"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "7s9d0xhwo8"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "18000",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "18000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "6",
+            "dimensions": {
+              "model": "deep-research-exp-10-2025"
+            },
+            "effectiveLimit": "6"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "f116dzcgxx"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "6",
+            "dimensions": {
+              "model": "gdm-eval-model-u"
+            },
+            "effectiveLimit": "6"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "30000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "30000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "30000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "30000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "30000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "30000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "20000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "20000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "20000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "20000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "30000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "30000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-1337ae"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-ft9d3c"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-fw3t9e"
+            }
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "j2ycnyml2h"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "3600",
+            "dimensions": {
+              "model": "qgsAKtKtlw"
+            },
+            "effectiveLimit": "3600"
+          },
+          {
+            "defaultLimit": "7200",
+            "dimensions": {
+              "model": "xh7Bm2Kp9w"
+            },
+            "effectiveLimit": "7200"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      },
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_3_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "30000",
+            "effectiveLimit": "30000"
+          },
+          {
+            "defaultLimit": "2520000",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "2520000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "deep-research-exp-10-2025"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "50000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "50000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "864000",
+            "dimensions": {
+              "model": "qgsAKtKtlw"
+            },
+            "effectiveLimit": "864000"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Generate content requests per model (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_3_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "2000000",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "2000000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "deep-research-exp-10-2025"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "500000",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "500000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gdm-eval-model-stp"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gdm-lc-eval-phase-0"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gdm-lc-eval-phase-1"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "250000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "250000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "25000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "25000"
+          },
+          {
+            "defaultLimit": "2000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "2000000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "500000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "500000"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "2000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "2000000"
+          },
+          {
+            "defaultLimit": "2000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "2000000"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "2000000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "2000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "100000",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "100000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "200000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "200000"
+          },
+          {
+            "defaultLimit": "4000000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "4000000"
+          },
+          {
+            "defaultLimit": "1000000",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "1000000"
+          },
+          {
+            "defaultLimit": "2000000",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "2000000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-1337ae"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-ft9d3c"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-fw3t9e"
+            }
+          },
+          {
+            "defaultLimit": "3000000",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "3000000"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Generate content paid tier input token count",
+    "metric": "generativelanguage.googleapis.com/generate_content_paid_tier_input_token_count",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "Generate Content API requests per minute",
+    "metric": "generativelanguage.googleapis.com/generate_content_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_search_request_free",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1500",
+            "effectiveLimit": "1500"
+          },
+          {
+            "defaultLimit": "1500",
+            "dimensions": {
+              "model": "gdm-eval-model-u"
+            },
+            "effectiveLimit": "1500"
+          },
+          {
+            "defaultLimit": "1500",
+            "dimensions": {
+              "model": "gemini-2.0"
+            },
+            "effectiveLimit": "1500"
+          },
+          {
+            "defaultLimit": "1500",
+            "dimensions": {
+              "model": "gemini-2.5"
+            },
+            "effectiveLimit": "1500"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3"
+            }
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "GenerateContent requests with Search tools (free tier)",
+    "metric": "generativelanguage.googleapis.com/generate_content_search_request_free",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_search_request_paid",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "5000",
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "gdm-eval-model-u"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "gemini-2.0"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "gemini-2.5"
+            },
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "1500",
+            "dimensions": {
+              "model": "gemini-3"
+            },
+            "effectiveLimit": "1500"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "GenerateContent requests with Search tools (paid tier)",
+    "metric": "generativelanguage.googleapis.com/generate_content_search_request_paid",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_content_search_request_usage",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "GenerateContent search request usage",
+    "metric": "generativelanguage.googleapis.com/generate_content_search_request_usage",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_requests_per_model",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "360",
+            "effectiveLimit": "360"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "7s9d0xhwo8"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "18000",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "18000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "150",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "150"
+          },
+          {
+            "defaultLimit": "6",
+            "dimensions": {
+              "model": "deep-research-exp-10-2025"
+            },
+            "effectiveLimit": "6"
+          },
+          {
+            "defaultLimit": "1",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "1"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "f116dzcgxx"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "25",
+            "dimensions": {
+              "model": "gdm-eval-model-stp"
+            },
+            "effectiveLimit": "25"
+          },
+          {
+            "defaultLimit": "6",
+            "dimensions": {
+              "model": "gdm-eval-model-u"
+            },
+            "effectiveLimit": "6"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gdm-lc-eval-phase-0"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "60",
+            "dimensions": {
+              "model": "gdm-lc-eval-phase-1"
+            },
+            "effectiveLimit": "60"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "4000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "4000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "4000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "4000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "150",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "150"
+          },
+          {
+            "defaultLimit": "150",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "150"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "150",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "150"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "25",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "25"
+          },
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "4000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "4000"
+          },
+          {
+            "defaultLimit": "25",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "25"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-1337ae"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-ft9d3c"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gqi-cst-fw3t9e"
+            }
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "3000",
+            "dimensions": {
+              "model": "j2ycnyml2h"
+            },
+            "effectiveLimit": "3000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "oswk9grrjt"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "3600",
+            "dimensions": {
+              "model": "qgsAKtKtlw"
+            },
+            "effectiveLimit": "3600"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "u3kpjw07gm"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "3600",
+            "dimensions": {
+              "model": "xh7Bm2Kp9w"
+            },
+            "effectiveLimit": "3600"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1000"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1001"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1002"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1003"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1004"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Generate content requests per model (paid tier)",
+    "metric": "generativelanguage.googleapis.com/generate_requests_per_model",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generate_requests_per_model_per_day",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "30000",
+            "effectiveLimit": "30000"
+          },
+          {
+            "defaultLimit": "2520000",
+            "dimensions": {
+              "model": "chat-bard"
+            },
+            "effectiveLimit": "2520000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "computer-use-exp"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "computer-use-preview"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "1440",
+            "dimensions": {
+              "model": "deep-research-pro-preview"
+            },
+            "effectiveLimit": "1440"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gdm-eval-model-stp"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gdm-lc-eval-phase-0"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gdm-lc-eval-phase-1"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-2.0-exp"
+            },
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-audio"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp-image"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "gemini-2.0-flash-exp"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-lite"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.0-flash-preview-image-generation"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.0-flash"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.0-pro-exp"
+            }
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp-native-audio-thinking-dialog"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-exp"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-lite"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-live"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-flash-native-audio-dialog"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "2000",
+            "dimensions": {
+              "model": "gemini-2.5-flash-preview-image"
+            },
+            "effectiveLimit": "2000"
+          },
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "gemini-2.5-flash-tts"
+            },
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-flash"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-1p-freebie"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-2.5-pro-exp"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "gemini-2.5-pro-tts"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "10000",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "10000"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-3-pro-image"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-image"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "150000",
+            "dimensions": {
+              "model": "gemini-3.1-flash-lite"
+            },
+            "effectiveLimit": "150000"
+          },
+          {
+            "defaultLimit": "250",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "250"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemini-robotics-er-1.5-preview"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-12b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-1b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-27b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-2b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "14400",
+            "dimensions": {
+              "model": "gemma-3-4b"
+            },
+            "effectiveLimit": "14400"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gqi-cst-h34jgm"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "j2ycnyml2h"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "864000",
+            "dimensions": {
+              "model": "qgsAKtKtlw"
+            },
+            "effectiveLimit": "864000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "u3kpjw07gm"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "864000",
+            "dimensions": {
+              "model": "xh7Bm2Kp9w"
+            },
+            "effectiveLimit": "864000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1000"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1001"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1002"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1003"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "xyz-1004"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Generate requests per model per day",
+    "metric": "generativelanguage.googleapis.com/generate_requests_per_model_per_day",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generated_images_free_tier_per_model",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "5",
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "imagen-3.0-fast-generate"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "5"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Generated images per model (free tier)",
+    "metric": "generativelanguage.googleapis.com/generated_images_free_tier_per_model",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/generated_images_paid_tier_1_per_model",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "100",
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "70",
+            "dimensions": {
+              "model": "imagen-4.0-fast-generate"
+            },
+            "effectiveLimit": "70"
+          },
+          {
+            "defaultLimit": "70",
+            "dimensions": {
+              "model": "imagen-4.0-generate"
+            },
+            "effectiveLimit": "70"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "imagen-4.0-ultra-generate"
+            },
+            "effectiveLimit": "30"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Generated images per model (paid tier 1)",
+    "metric": "generativelanguage.googleapis.com/generated_images_paid_tier_1_per_model",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/map_grounding_request_free_tier",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "500",
+            "effectiveLimit": "500"
+          },
+          {
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-flash"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3-pro"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            }
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Map grounding request per project per day (free tier)",
+    "metric": "generativelanguage.googleapis.com/map_grounding_request_free_tier",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/map_grounding_request_paid",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-2.5-pro"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3-flash"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3-pro"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "gemini-3.1-pro"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Map grounding request per project per day (paid tier)",
+    "metric": "generativelanguage.googleapis.com/map_grounding_request_paid",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/model_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "200",
+            "effectiveLimit": "200"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "Read API requests",
+    "metric": "generativelanguage.googleapis.com/model_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_image_verification_requests_per_model",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "image-verification-001"
+            },
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict requests for image verification per model",
+    "metric": "generativelanguage.googleapis.com/predict_image_verification_requests_per_model",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "4",
+            "effectiveLimit": "4"
+          },
+          {
+            "defaultLimit": "4",
+            "dimensions": {
+              "model": "veo-001-preview-0815"
+            },
+            "effectiveLimit": "4"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "veo-2.0-generate-001"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "veo-2.0-generate-exp"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "veo-2.0-generate-selfie"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "veo-3.0-fast-generate"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "veo-3.0-generate"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "veo-internal"
+            },
+            "effectiveLimit": "10"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict long running requests per project",
+    "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_free_tier",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "kdxlq"
+            },
+            "effectiveLimit": "2"
+          },
+          {
+            "defaultLimit": "4",
+            "dimensions": {
+              "model": "veo-001-preview-0815"
+            },
+            "effectiveLimit": "4"
+          },
+          {
+            "dimensions": {
+              "model": "veo-2.0-generate-001"
+            }
+          },
+          {
+            "dimensions": {
+              "model": "veo-2.0-generate-exp"
+            }
+          },
+          {
+            "defaultLimit": "100",
+            "dimensions": {
+              "model": "veo-internal"
+            },
+            "effectiveLimit": "100"
+          },
+          {
+            "defaultLimit": "2",
+            "dimensions": {
+              "model": "ztmpr"
+            },
+            "effectiveLimit": "2"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict long running requests per project (free tier)",
+    "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_free_tier",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_paid_tier_2",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "4",
+            "effectiveLimit": "4"
+          },
+          {
+            "defaultLimit": "4",
+            "dimensions": {
+              "model": "veo-3.0-fast-generate"
+            },
+            "effectiveLimit": "4"
+          },
+          {
+            "defaultLimit": "4",
+            "dimensions": {
+              "model": "veo-3.0-generate"
+            },
+            "effectiveLimit": "4"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "veo-internal"
+            },
+            "effectiveLimit": "10"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict long running requests per project (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_paid_tier_2",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_paid_tier_3",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "10",
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "veo-3.0-fast-generate"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "veo-3.0-generate"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "veo-internal"
+            },
+            "effectiveLimit": "30"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict long running requests per project (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_per_day",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "10",
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "veo-2.0-generate-001"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "veo-3.0-fast-generate"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "veo-3.0-generate"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "veo-internal"
+            },
+            "effectiveLimit": "1000"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict long running requests per project per day",
+    "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_per_day",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_per_day_free_tier",
+        "quotaBuckets": [
+          {},
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "kdxlq"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "ztmpr"
+            },
+            "effectiveLimit": "10"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict long running requests per project per day (free tier)",
+    "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_per_day_free_tier",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_per_day_paid_tier_2",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "50",
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "veo-2.0-generate-001"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "veo-3.0-fast-generate"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "veo-3.0-generate"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "veo-internal"
+            },
+            "effectiveLimit": "1000"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict long running requests per project per day (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_per_day_paid_tier_2",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_per_day_paid_tier_3",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "500",
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "50",
+            "dimensions": {
+              "model": "veo-2.0-generate-001"
+            },
+            "effectiveLimit": "50"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "veo-3.0-fast-generate"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "500",
+            "dimensions": {
+              "model": "veo-3.0-generate"
+            },
+            "effectiveLimit": "500"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "veo-internal"
+            },
+            "effectiveLimit": "1000"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict long running requests per project per day (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/predict_long_running_requests_per_model_per_day_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_requests_free_tier_per_model",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "25",
+            "effectiveLimit": "25"
+          },
+          {
+            "defaultLimit": "25",
+            "dimensions": {
+              "model": "imagen-3.0-fast-generate"
+            },
+            "effectiveLimit": "25"
+          },
+          {
+            "defaultLimit": "25",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "25"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict requests per model (free tier)",
+    "metric": "generativelanguage.googleapis.com/predict_requests_free_tier_per_model",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_requests_per_model",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "20",
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "imagen-3.0-fast-generate"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "5"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "imagen-4.0-fast-generate"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "imagen-4.0-generate"
+            },
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "5",
+            "dimensions": {
+              "model": "imagen-4.0-ultra-generate"
+            },
+            "effectiveLimit": "5"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict requests per model (paid tier 1)",
+    "metric": "generativelanguage.googleapis.com/predict_requests_per_model",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_requests_per_model_paid_tier_2",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "10",
+            "effectiveLimit": "10"
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "15",
+            "dimensions": {
+              "model": "imagen-4.0-fast-generate"
+            },
+            "effectiveLimit": "15"
+          },
+          {
+            "defaultLimit": "15",
+            "dimensions": {
+              "model": "imagen-4.0-generate"
+            },
+            "effectiveLimit": "15"
+          },
+          {
+            "defaultLimit": "10",
+            "dimensions": {
+              "model": "imagen-4.0-ultra-generate"
+            },
+            "effectiveLimit": "10"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict requests per model (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/predict_requests_per_model_paid_tier_2",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_requests_per_model_paid_tier_3",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "15",
+            "effectiveLimit": "15"
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "imagen-4.0-fast-generate"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "20",
+            "dimensions": {
+              "model": "imagen-4.0-generate"
+            },
+            "effectiveLimit": "20"
+          },
+          {
+            "defaultLimit": "15",
+            "dimensions": {
+              "model": "imagen-4.0-ultra-generate"
+            },
+            "effectiveLimit": "15"
+          }
+        ],
+        "unit": "1/min/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict requests per model (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/predict_requests_per_model_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_1",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "30",
+            "effectiveLimit": "30"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "70",
+            "dimensions": {
+              "model": "imagen-4.0-fast-generate"
+            },
+            "effectiveLimit": "70"
+          },
+          {
+            "defaultLimit": "70",
+            "dimensions": {
+              "model": "imagen-4.0-generate"
+            },
+            "effectiveLimit": "70"
+          },
+          {
+            "defaultLimit": "30",
+            "dimensions": {
+              "model": "imagen-4.0-ultra-generate"
+            },
+            "effectiveLimit": "30"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict requests per model per day (paid tier 1)",
+    "metric": "generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_1",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_2",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "400",
+            "effectiveLimit": "400"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "imagen-4.0-fast-generate"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "1000",
+            "dimensions": {
+              "model": "imagen-4.0-generate"
+            },
+            "effectiveLimit": "1000"
+          },
+          {
+            "defaultLimit": "400",
+            "dimensions": {
+              "model": "imagen-4.0-ultra-generate"
+            },
+            "effectiveLimit": "400"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict requests per model per day (paid tier 2)",
+    "metric": "generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_2",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_3",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "5000",
+            "effectiveLimit": "5000"
+          },
+          {
+            "defaultLimit": "-1",
+            "dimensions": {
+              "model": "imagen-3.0-generate"
+            },
+            "effectiveLimit": "-1"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "imagen-4.0-fast-generate"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "15000",
+            "dimensions": {
+              "model": "imagen-4.0-generate"
+            },
+            "effectiveLimit": "15000"
+          },
+          {
+            "defaultLimit": "5000",
+            "dimensions": {
+              "model": "imagen-4.0-ultra-generate"
+            },
+            "effectiveLimit": "5000"
+          }
+        ],
+        "unit": "1/d/{project}/{model}"
+      }
+    ],
+    "displayName": "Predict requests per model per day (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/predict_requests_per_model_per_day_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/read_file_search_stores_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "60",
+            "effectiveLimit": "60"
+          }
+        ],
+        "unit": "1/min/{project}"
+      }
+    ],
+    "displayName": "Read FileSearchStore API requests",
+    "metric": "generativelanguage.googleapis.com/read_file_search_stores_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}"
+      }
+    ],
+    "displayName": "Search grounding request per project per day",
+    "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_free_tier",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}"
+      }
+    ],
+    "displayName": "Search grounding request per project per day (free tier)",
+    "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_free_tier",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_paid_tier_3",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1",
+            "effectiveLimit": "1"
+          }
+        ],
+        "unit": "1/d/{project}"
+      }
+    ],
+    "displayName": "Search grounding request per project per day (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_per_user",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{user}"
+      }
+    ],
+    "displayName": "Search grounding request per project per user per day",
+    "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_per_user",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_per_user_free_tier",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{user}"
+      }
+    ],
+    "displayName": "Search grounding request per project per user per day (free tier)",
+    "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_per_user_free_tier",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_per_user_paid_tier_3",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/d/{project}/{user}"
+      }
+    ],
+    "displayName": "Search grounding request per project per user per day (paid tier 3)",
+    "metric": "generativelanguage.googleapis.com/search_grounding_request_per_project_per_day_per_user_paid_tier_3",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/semantic_retriever_management_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "6",
+            "effectiveLimit": "6"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "Semantic Retriever corpus/document/chunk management-related API requests",
+    "metric": "generativelanguage.googleapis.com/semantic_retriever_management_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/semantic_retriever_retrieval_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "42",
+            "effectiveLimit": "42"
+          }
+        ],
+        "supportedLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "asia-southeast3",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-north2",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "northamerica-south1",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "unit": "1/min/{project}/{region}"
+      }
+    ],
+    "displayName": "Semantic Retriever retrieval-related API requests",
+    "metric": "generativelanguage.googleapis.com/semantic_retriever_retrieval_requests",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/total_cached_content_storage_tokens_free_tier",
+        "quotaBuckets": [
+          {}
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Number of tokens across all cached content for a given model",
+    "metric": "generativelanguage.googleapis.com/total_cached_content_storage_tokens_free_tier",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "isPrecise": true,
+        "metric": "generativelanguage.googleapis.com/total_cached_content_storage_tokens_paid_tier",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "-1",
+            "effectiveLimit": "-1"
+          }
+        ],
+        "unit": "1/{project}/{model}"
+      }
+    ],
+    "displayName": "Number of tokens across all cached content for a given model",
+    "metric": "generativelanguage.googleapis.com/total_cached_content_storage_tokens_paid_tier",
+    "unit": "1"
+  },
+  {
+    "consumerQuotaLimits": [
+      {
+        "metric": "generativelanguage.googleapis.com/write_to_file_search_stores_requests",
+        "quotaBuckets": [
+          {
+            "defaultLimit": "1200",
+            "effectiveLimit": "1200"
+          }
+        ],
+        "unit": "1/min/{project}"
+      }
+    ],
+    "displayName": "Write to FileSearchStore API requests",
+    "metric": "generativelanguage.googleapis.com/write_to_file_search_stores_requests",
+    "unit": "1"
+  }
+]

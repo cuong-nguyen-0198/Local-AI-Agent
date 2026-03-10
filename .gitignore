@@ -1,0 +1,5 @@
+.aider*
+.env
+service-account-key.json
+google-cloud-sdk/*
+node_modules/*
