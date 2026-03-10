@@ -14,7 +14,23 @@
     "projectType": "javascript",
     "username": "cuongnv",
     "issueCode": "WSC-1356",
-    "updatedAt": "2026-03-10T06:45:07.209Z",
+    "updatedAt": "2026-03-10T07:47:22.727Z",
     "title": "chuyển startTransition sang sử dụng isLoading và s..."
+  },
+  "f44577e6": {
+    "id": "f44577e6",
+    "projectPath": "/home/cuongnguyen1/projects/tti_dcs/wonder-screen-frontend/frontend",
+    "username": "cuongnv",
+    "issueCode": "WSC-643",
+    "updatedAt": "2026-03-10T08:49:33.403Z",
+    "title": "[Admin_ System management app update ] Lỗi không c..."
+  },
+  "8a755683": {
+    "id": "8a755683",
+    "projectPath": "/home/cuongnguyen1/projects/tti_dcs/wonder-screen-frontend/frontend",
+    "username": "cuongnv",
+    "issueCode": "WSC-643",
+    "updatedAt": "2026-03-10T09:32:19.168Z",
+    "title": "[Program] Lỗi không chặn spam click button Save kh..."
   }
 }
