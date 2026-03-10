@@ -1,68 +1,221 @@
 <!DOCTYPE html>
-<html lang='vi'>
+<html lang="vi">
 <head>
-    <meta charset='UTF-8'>
-    <title>🤖 Local AI Engineer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Session AI Agent</title>
     <style>
-        body { font-family: sans-serif; background: #f4f7f6; padding: 20px; }
-        .card { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-        .field { margin-bottom: 12px; }
-        label { display: block; font-weight: bold; margin-bottom: 5px; font-size: 13px; }
-        input, select, textarea { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
-        .row { display: flex; gap: 10px; }
-        button { width: 100%; padding: 12px; background: #1a73e8; color: white; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; font-weight: bold; margin-top: 10px; }
-        #terminal { background: #1e1e1e; color: #00ff00; padding: 15px; font-family: monospace; height: 350px; overflow-y: auto; border-radius: 5px; margin-top: 20px; white-space: pre-wrap; font-size: 12px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; display: flex; height: 100vh; background: #f5f5f5; }
+        
+        /* Sidebar Styles */
+        #sidebar { width: 260px; background: #202123; color: white; display: flex; flex-direction: column; padding: 10px; flex-shrink: 0; }
+        .new-chat-btn { border: 1px solid #4d4d4f; padding: 12px; border-radius: 5px; cursor: pointer; text-align: left; margin-bottom: 20px; transition: 0.3s; }
+        .new-chat-btn:hover { background: #2b2c2f; }
+        .session-item { padding: 10px; margin: 5px 0; border-radius: 5px; cursor: pointer; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .session-item:hover { background: #2b2c2f; }
+        .session-item.active { background: #343541; }
+
+        /* Main Content */
+        #main-content { flex-grow: 1; display: flex; flex-direction: column; overflow: hidden; }
+        header { padding: 15px 20px; background: white; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; }
+        
+        .container { flex-grow: 1; display: flex; flex-direction: column; padding: 20px; overflow-y: auto; max-width: 1000px; margin: 0 auto; width: 100%; }
+        
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; font-size: 14px; }
+        input, select, textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        
+        #output { background: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 4px; font-family: "Fira Code", monospace; font-size: 13px; white-space: pre-wrap; height: 400px; overflow-y: auto; position: relative; }
+        
+        button { background: #10a37f; color: white; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; width: 100%; }
+        button:hover { background: #1a7f64; }
+        button:disabled { background: #ccc; cursor: not-allowed; }
+        
+        .stop-btn { background: #d93025; margin-top: 10px; }
+        .stop-btn:hover { background: #b22a1f; }
+
+        .status-badge { font-size: 12px; padding: 2px 6px; border-radius: 10px; background: #eee; color: #666; }
+        .status-running { background: #e6f4ea; color: #1e8e3e; }
     </style>
 </head>
 <body>
-    <div class='card'>
-        <h2>🤖 Local AI Agent (Full Context)</h2>
-        <div class='field'><label>Path dự án</label><input type='text' id='projectPath' value='~/projects/tti_dcs/wonder-screen-frontend/frontend'></div>
-        <div class='row'>
-            <div class='field'><label>Type</label><select id='gitType'><option value='feature'>feat</option><option value='fix' selected>fix</option></select></div>
-            <div class='field'><label>Username</label><input type='text' id='username' value='cuongnv'></div>
-            <div class='field'><label>Issue</label><input type='text' id='issueCode' value='WSC-123'></div>
+    <div id="sidebar">
+        <div class="new-chat-btn" onclick="createNewSession()">+ Cuộc hội thoại mới</div>
+        <div id="session-list">
+            <!-- Sessions will appear here -->
         </div>
-        <div class='row'>
-            <div class='field'><label>Ngôn ngữ</label><select id='projectType'><option value='go'>Go</option><option value='php'>PHP</option><option value='javascript'>JS</option></select></div>
-            <div class='field'><label>Tác vụ</label><select id='taskType'><option value='fix_code'>Sửa Code & Git</option><option value='summarize'>Chỉ đọc</option></select></div>
-        </div>
-        <div class='field'><label>File tham khảo (mỗi file 1 dòng)</label><textarea id='referenceFiles' rows='2'></textarea></div>
-        <div class='field'><label>Yêu cầu chi tiết (Tiếng Việt)</label><textarea id='instruction' rows='3'></textarea></div>
-        <button id='runBtn' onclick='run()'>BẮT ĐẦU CHẠY 🚀</button>
-        <div id='terminal'>--- Sẵn sàng ---</div>
     </div>
+
+    <div id="main-content">
+        <header>
+            <h2 id="current-title">Thiết lập AI Agent</h2>
+            <div id="session-status" class="status-badge">Sẵn sàng</div>
+        </header>
+
+        <div class="container">
+            <div class="card">
+                <div class="grid">
+                    <div class="form-group">
+                        <label>Đường dẫn dự án</label>
+                        <input type="text" id="projectPath" placeholder="~/projects/my-app">
+                    </div>
+                    <div class="form-group">
+                        <label>Loại dự án</label>
+                        <select id="projectType">
+                            <option value="javascript">JavaScript / Node.js</option>
+                            <option value="php">PHP / Laravel</option>
+                            <option value="go">Golang</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="grid">
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" id="username" placeholder="tda">
+                    </div>
+                    <div class="form-group">
+                        <label>Issue Code</label>
+                        <input type="text" id="issueCode" placeholder="ISSUE-123">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Yêu cầu (Instruction)</label>
+                    <textarea id="instruction" rows="4" placeholder="Ví dụ: Tìm hiểu logic lưu các trường ở màn hình screen..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>File tham khảo (Cách nhau bởi dấu phẩy)</label>
+                    <input type="text" id="referenceFiles" placeholder="src/app.js, config/db.php">
+                </div>
+
+                <div class="form-group" style="display: flex; align-items: center; gap: 10px; margin-bottom: 20px;">
+                    <input type="checkbox" id="shouldCommit" style="width: auto; margin: 0;">
+                    <label style="margin: 0;">Tự động Commit & Push lên Repo</label>
+                </div>
+
+                <button id="runBtn" onclick="runAgent()">🚀 Chạy Agent</button>
+                <button id="stopBtn" class="stop-btn" onclick="stopAgent()" style="display: none;">⏹ Dừng Agent</button>
+            </div>
+
+            <div id="output">Chào mừng! Hãy nhập yêu cầu để bắt đầu.</div>
+        </div>
+    </div>
+
     <script>
-        async function run() {
-            const btn = document.getElementById('runBtn');
-            const term = document.getElementById('terminal');
-            btn.disabled = true; term.innerText = 'AI đang thực thi...';
-            try {
-                const res = await fetch('/api/run-agent', {
-                    method: 'POST',
-                    headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({
-                        projectPath: document.getElementById('projectPath').value,
-                        projectType: document.getElementById('projectType').value,
-                        taskType: document.getElementById('taskType').value,
-                        instruction: document.getElementById('instruction').value,
-                        referenceFiles: document.getElementById('referenceFiles').value,
-                        gitType: document.getElementById('gitType').value,
-                        username: document.getElementById('username').value,
-                        issueCode: document.getElementById('issueCode').value
-                    })
-                });
-                const reader = res.body.getReader();
-                const decoder = new TextDecoder();
-                while (true) {
-                    const {done, value} = await reader.read();
-                    if (done) break;
-                    term.innerText += decoder.decode(value);
-                    term.scrollTop = term.scrollHeight;
-                }
-            } catch (e) { term.innerText += 'Lỗi kết nối.'; }
-            btn.disabled = false;
+        let currentSessionId = null;
+        let isRunning = false;
+
+        async function loadSessions() {
+            const res = await fetch('/api/sessions');
+            const sessions = await res.json();
+            const list = document.getElementById('session-list');
+            list.innerHTML = '';
+            
+            sessions.forEach(s => {
+                const item = document.createElement('div');
+                item.className = `session-item ${s.id === currentSessionId ? 'active' : ''}`;
+                item.innerHTML = `<div>${s.title}</div><small style="opacity: 0.6">${s.issueCode || ''} - ${s.id}</small>`;
+                item.onclick = () => selectSession(s);
+                list.appendChild(item);
+            });
         }
+
+        function createNewSession() {
+            currentSessionId = null;
+            document.getElementById('instruction').value = '';
+            document.getElementById('output').innerHTML = 'Sẵn sàng cho hội thoại mới.';
+            document.getElementById('current-title').innerText = 'Thiết lập AI Agent mới';
+            loadSessions();
+        }
+
+        function selectSession(s) {
+            currentSessionId = s.id;
+            document.getElementById('projectPath').value = s.projectPath;
+            document.getElementById('projectType').value = s.projectType;
+            document.getElementById('username').value = s.username;
+            document.getElementById('issueCode').value = s.issueCode;
+            document.getElementById('current-title').innerText = `Session: ${s.id}`;
+            document.getElementById('output').innerHTML = `Đã chuyển sang session ${s.id}. Sẵn sàng tiếp tục.`;
+            loadSessions();
+        }
+
+        async function runAgent() {
+            if (isRunning) return;
+            
+            const data = {
+                sessionId: currentSessionId,
+                projectPath: document.getElementById('projectPath').value,
+                projectType: document.getElementById('projectType').value,
+                taskType: 'fix_code',
+                instruction: document.getElementById('instruction').value,
+                referenceFiles: document.getElementById('referenceFiles').value,
+                gitType: 'feature',
+                username: document.getElementById('username').value,
+                issueCode: document.getElementById('issueCode').value,
+                isFollowUp: !!currentSessionId,
+                shouldCommit: document.getElementById('shouldCommit').checked
+            };
+
+            const runBtn = document.getElementById('runBtn');
+            const stopBtn = document.getElementById('stopBtn');
+            const output = document.getElementById('output');
+            
+            isRunning = true;
+            runBtn.disabled = true;
+            stopBtn.style.display = 'block';
+            output.innerHTML = '⏳ Đang khởi động... \n';
+            document.getElementById('session-status').innerText = 'Đang chạy';
+            document.getElementById('session-status').className = 'status-badge status-running';
+
+            try {
+                const response = await fetch('/api/run-agent', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+
+                while (true) {
+                    const { done, value } = await reader.read();
+                    if (done) break;
+                    
+                    const chunk = decoder.decode(value);
+                    if (chunk.includes('SESSION_ID:')) {
+                        const sid = chunk.match(/SESSION_ID: ([a-z0-9-]+)/)[1];
+                        currentSessionId = sid;
+                    }
+                    output.innerHTML += chunk;
+                    output.scrollTop = output.scrollHeight;
+                }
+            } catch (error) {
+                output.innerHTML += `\n❌ LỖI: ${error.message}`;
+            } finally {
+                isRunning = false;
+                runBtn.disabled = false;
+                stopBtn.style.display = 'none';
+                document.getElementById('session-status').innerText = 'Sẵn sàng';
+                document.getElementById('session-status').className = 'status-badge';
+                loadSessions();
+            }
+        }
+
+        async function stopAgent() {
+            if (!currentSessionId) return;
+            await fetch('/api/stop-agent', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ sessionId: currentSessionId })
+            });
+        }
+
+        loadSessions();
     </script>
 </body>
 </html>

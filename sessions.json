@@ -1,0 +1,20 @@
+{
+  "a92dae16": {
+    "id": "a92dae16",
+    "projectPath": "/home/cuongnguyen1/projects/tti_dcs/wonder-screen-frontend/frontend",
+    "projectType": "javascript",
+    "username": "",
+    "issueCode": "WSC-1234",
+    "updatedAt": "2026-03-10T05:02:10.347Z",
+    "title": "Tìm hiểu logic lưu thông tin ở file src/components..."
+  },
+  "de8a5cc7": {
+    "id": "de8a5cc7",
+    "projectPath": "/home/cuongnguyen1/projects/tti_dcs/wonder-screen-frontend/frontend",
+    "projectType": "javascript",
+    "username": "cuongnv",
+    "issueCode": "WSC-1356",
+    "updatedAt": "2026-03-10T06:45:07.209Z",
+    "title": "chuyển startTransition sang sử dụng isLoading và s..."
+  }
+}
