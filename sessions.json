@@ -1,36 +1,83 @@
 {
-  "a92dae16": {
-    "id": "a92dae16",
-    "projectPath": "/home/cuongnguyen1/projects/tti_dcs/wonder-screen-frontend/frontend",
-    "projectType": "javascript",
-    "username": "",
-    "issueCode": "WSC-1234",
-    "updatedAt": "2026-03-10T05:02:10.347Z",
-    "title": "Tìm hiểu logic lưu thông tin ở file src/components..."
-  },
-  "de8a5cc7": {
-    "id": "de8a5cc7",
-    "projectPath": "/home/cuongnguyen1/projects/tti_dcs/wonder-screen-frontend/frontend",
-    "projectType": "javascript",
+  "0a36e793": {
+    "id": "0a36e793",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
     "username": "cuongnv",
-    "issueCode": "WSC-1356",
-    "updatedAt": "2026-03-10T07:47:22.727Z",
-    "title": "chuyển startTransition sang sử dụng isLoading và s..."
+    "issueCode": "TDASA-322",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-18T10:10:44.368Z",
+    "title": "* Thống kê theo khách hàng:\n\n  * Hiển thị số liệu ..."
   },
-  "f44577e6": {
-    "id": "f44577e6",
-    "projectPath": "/home/cuongnguyen1/projects/tti_dcs/wonder-screen-frontend/frontend",
+  "a145fbe0": {
+    "id": "a145fbe0",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
     "username": "cuongnv",
-    "issueCode": "WSC-643",
-    "updatedAt": "2026-03-10T08:49:33.403Z",
-    "title": "[Admin_ System management app update ] Lỗi không c..."
+    "issueCode": "WSC-324",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-18T04:06:04.265Z",
+    "title": "* Số order của TDA Group:\n\n  * Bỏ biểu đồ\n\n  * Hiể..."
   },
-  "8a755683": {
-    "id": "8a755683",
-    "projectPath": "/home/cuongnguyen1/projects/tti_dcs/wonder-screen-frontend/frontend",
+  "cdc7b1c2": {
+    "id": "cdc7b1c2",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
     "username": "cuongnv",
-    "issueCode": "WSC-643",
-    "updatedAt": "2026-03-10T09:32:19.168Z",
-    "title": "[Program] Lỗi không chặn spam click button Save kh..."
+    "issueCode": "WSC-325",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-18T07:02:01.676Z",
+    "title": "sửa hàm fetchFinanceByDivisionTDA, params customer..."
+  },
+  "0eec09bd": {
+    "id": "0eec09bd",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
+    "username": "cuongnv",
+    "issueCode": "TDASA-xxx",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-19T09:18:27.168Z",
+    "title": "* Có thể phát hành duy nhất số hóa đơn ngay cả khi..."
+  },
+  "ff3be4cc": {
+    "id": "ff3be4cc",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
+    "username": "cuongnv",
+    "issueCode": "TDASA-xxx",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-24T10:29:20.574Z",
+    "title": "[Report] Thêm filter để có thể lọc theo cho tier1,..."
+  },
+  "6478dfcb": {
+    "id": "6478dfcb",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
+    "username": "cuongnv",
+    "issueCode": "WSC-354",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-25T02:07:49.946Z",
+    "title": "[Report] Tỉ lệ Annual Overview đang sai, check lại..."
+  },
+  "28e7ba34": {
+    "id": "28e7ba34",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
+    "username": "cuongnv",
+    "issueCode": "WSC-340",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-25T10:10:26.986Z",
+    "title": "【Màn hình Invoice】Sắp xếp lại thứ tự danh sách the..."
+  },
+  "d5020c7f": {
+    "id": "d5020c7f",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
+    "username": "cuongnv",
+    "issueCode": "WSC-344",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-26T09:24:24.952Z",
+    "title": "* Thêm input nhập tax : Do có hóa đơn khi tính Tax..."
+  },
+  "8749e3d0": {
+    "id": "8749e3d0",
+    "projectPath": "/home/cuongnguyen1/projects/sale-report/sales-report-web",
+    "username": "cuongnv",
+    "issueCode": "WSC-312-354",
+    "taskMode": "fix_code",
+    "updatedAt": "2026-03-26T09:54:06.067Z",
+    "title": "Phần Revenue cần chỉnh sửa chút về mặt UI ạ:\n\n* Ch..."
   }
 }

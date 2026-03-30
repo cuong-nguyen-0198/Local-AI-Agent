@@ -110,8 +110,7 @@ app.post('/api/generate-branch', async (req, res) => {
     const prompt = `Translate this Vietnamese technical issue into a very short English slug (max 5 words, lowercase, hyphenated): "${issueContent}". Output ONLY the slug, no other text.`;
     try {
         const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
         });
         const data = await response.json();
@@ -122,22 +121,22 @@ app.post('/api/generate-branch', async (req, res) => {
 });
 
 app.post('/api/run-agent', (req, res) => {
-    let { sessionId, projectPath, instruction, referenceFiles, gitType, username, issueCode, isFollowUp, branchName: customBranchName } = req.body;
+    let { sessionId, taskMode, projectPath, instruction, referenceFiles, gitType, username, issueCode, isFollowUp, branchName: customBranchName } = req.body;
     projectPath = expandHome(projectPath);
-    if (!username || !issueCode || !projectPath) return res.status(400).json({ error: 'Missing Git info or Project Path.' });
+    if (taskMode !== 'discovery' && (!username || !issueCode)) return res.status(400).json({ error: 'Git info required for fix mode.' });
+    if (!projectPath) return res.status(400).json({ error: 'Project Path is required.' });
     const apiKey = process.env.GEMINI_API_KEY;
-    if (!apiKey) return res.status(400).json({ error: 'GEMINI_API_KEY missing' });
+    if (!apiKey) return res.status(400).json({ error: 'API_KEY missing' });
 
     if (!sessionId) sessionId = crypto.randomUUID().substring(0, 8);
     const sessions = loadSessions();
-    sessions[sessionId] = { id: sessionId, projectPath, username, issueCode, updatedAt: new Date().toISOString(), title: sessions[sessionId]?.title || instruction.substring(0, 50) + "..." };
+    sessions[sessionId] = { id: sessionId, projectPath, username, issueCode, taskMode, updatedAt: new Date().toISOString(), title: sessions[sessionId]?.title || instruction.substring(0, 50) + "..." };
     saveSessions(sessions);
 
     const actualGitType = gitType === 'feature' ? 'feat' : 'fix';
     const slug = instruction.toLowerCase().replace(/[^a-z0-9]/g, '-').substring(0, 20);
-    const branchName = customBranchName || `${gitType}/tda/${username}/${issueCode.toLowerCase()}-${slug}`;
+    const branchName = customBranchName || `${gitType}/tda/${username}/${issueCode?.toLowerCase() || 'discovery'}-${slug}`;
 
-    // NẠP RULES TỪ DỰ ÁN
     let contextRules = "";
     const localTemplateDir = path.join(projectPath, 'ai-centric-template');
     if (fs.existsSync(localTemplateDir)) {
@@ -153,40 +152,51 @@ app.post('/api/run-agent', (req, res) => {
 
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
     res.setHeader('Transfer-Encoding', 'chunked');
-    res.write(`🆔 SESSION: ${sessionId} | 🌿 BRANCH: ${branchName}\n`);
+    res.write(`🆔 SESSION: ${sessionId} | 🕵️ MODE: ${taskMode === 'discovery' ? 'Discovery' : 'Fix Code'}\n`);
 
-    try {
-        execSync(`git rev-parse --is-inside-work-tree`, { cwd: projectPath });
-        try { execSync(`git checkout ${branchName}`, { cwd: projectPath, stdio: 'ignore' }); }
-        catch (e) { execSync(`git checkout -b ${branchName}`, { cwd: projectPath }); res.write(`✅ Branch ready: ${branchName}\n`); }
-    } catch (err) { res.write(`⚠️ Git: ${err.message}\n`); }
+    res.write(`--------------------------------------------------------------------------------\n\n`);
 
-    // SYSTEM DIRECTIVES: LUÔN GỬI ĐỂ ĐẢM BẢO AI KHÔNG QUÊN QUY TẮC
-    const systemDirectives = `
-BẠN LÀ AI SOFTWARE ENGINEER CHUYÊN NGHIỆP. BẠN ĐANG ĐIỀU KHIỂN TERMINAL QUA AIDER.
-[QUY TẮC SỬA CODE BẮT BUỘC]:
-1. TUYỆT ĐỐI KHÔNG comment code. Xóa mã cũ, thay bằng mã mới.
-2. TUYỆT ĐỐI KHÔNG dùng Tiếng Việt trong file code. 100% English (biến, hàm, chú thích).
-3. TRUY VẾT LOGIC THÔNG MINH: Dựa trên mô tả yêu cầu (URL, tên chức năng, hoặc màn hình), hãy sử dụng Repo Map để tìm các tệp tin liên quan nhất (Route, Component, Controller, hoặc Service). 
-4. LUÔN ĐỌC FILE TRƯỚC: Trước khi đưa ra giải pháp sửa đổi, bạn PHẢI đọc nội dung tệp tin để hiểu logic hiện tại.
+    let systemDirectives = "";
+    if (taskMode === 'discovery') {
+        systemDirectives = `
+BẠN LÀ SENIOR SOFTWARE ARCHITECT. NHIỆM VỤ: PHÂN TÍCH SOURCE CODE CHO LẬP TRÌNH VIÊN MỚI.
+[YÊU CẦU QUAN TRỌNG]: 
+- BẠN CHỈ ĐƯỢC PHÉP ĐỌC FILE VÀ PHÂN TÍCH. 
+- TUYỆT ĐỐI KHÔNG ĐƯỢC SỬA FILE, KHÔNG ĐƯỢC TẠO KHỐI SEARCH/REPLACE.
+- KHÔNG THỰC HIỆN BẤT KỲ LỆNH GIT NÀO.
 
-[DỰ ÁN HIỆN TẠI]: ${contextRules}
-[GIT INFO]: [${actualGitType}][${issueCode.toUpperCase()}] | Branch: ${branchName}
-[CHỈ THỊ]: Phản hồi bằng Tiếng Việt trong phần chat. Thực hiện sửa đổi ngay bằng các khối SEARCH/REPLACE chuẩn của AIDER.
+[CẦN LÀM RÕ]:
+1. Framework & Version: Xác định từ cấu hình (vd: package.json, go.mod).
+2. Cấu trúc thư mục: Giải thích ý nghĩa các folder chính.
+3. Luồng chính & Auth: Tìm cơ chế Login, Middleware, Permission.
+4. Chức năng chính: Liệt kê các nghiệp vụ quan trọng.
+5. Hotspots: File nào gọi nhiều API nhất? Logic tập trung ở đâu?
+[CHỈ THỊ]: Trình bày Tiếng Việt, dùng Markdown chuyên nghiệp. 
 `;
+    } else {
+        systemDirectives = `
+BẠN LÀ AI SOFTWARE ENGINEER. BẠN ĐANG ĐIỀU KHIỂN TERMINAL QUA AIDER.
+[QUY TẮC BẮT BUỘC]:
+1. TUYỆT ĐỐI KHÔNG comment code cũ. Xóa mã cũ, thay mã mới.
+2. 100% ENGLISH TRONG FILE CODE. CẤM Tiếng Việt trong file.
+3. TRUY VẾT LOGIC: Tự tìm file liên quan từ Repo Map dựa trên URL/Chức năng.
+4. LUÔN ĐỌC FILE TRƯỚC khi sửa.
+[DỰ ÁN]: ${contextRules}
+[CHỈ THỊ]: Phản hồi Tiếng Việt trong chat. Thực hiện ngay bằng SEARCH/REPLACE.
+`;
+    }
 
-    // LUÔN KÈM SYSTEM DIRECTIVES VÀO MESSAGE ĐỂ GIỮ STABILITY
-    const fullPrompt = `${systemDirectives}\n\n[YÊU CẦU MỚI]: ${instruction}`;
-
+    const fullPrompt = `${systemDirectives}\n\n[YÊU CẦU]: ${instruction}`;
     let aiderArgs = [
         '--model', 'gemini/gemini-2.5-flash', '--architect', '--yes', '--chat-language', 'Vietnamese', '--map-tokens', '4096',
         '--no-check-update', '--cache-prompts', '--suggest-shell-commands',
         '--chat-history-file', chatHistoryFile,
         '--input-history-file', path.join(projectPath, `.aider.input.history.${sessionId}`),
         '--set-env', 'GOOGLE_API_KEY=' + apiKey,
-        '--message', fullPrompt,
-        '--auto-commits', '--commit-prompt', `Generate English commit message starting with [${actualGitType}][${issueCode.toUpperCase()}]`
+        '--message', fullPrompt
     ];
+
+    aiderArgs.push('--no-auto-commits', '--no-dirty-commits');
 
     const fileRegex = /([a-zA-Z0-9_\-\/]+\.(?:tsx|ts|js|jsx|php|go|md|txt))/g;
     let allFiles = new Set(instruction.match(fileRegex) || []);
@@ -197,8 +207,7 @@ BẠN LÀ AI SOFTWARE ENGINEER CHUYÊN NGHIỆP. BẠN ĐANG ĐIỀU KHIỂN TER
     });
 
     const agentProcess = spawn(aiderCommand, aiderArgs, {
-        cwd: projectPath,
-        env: { ...process.env, GEMINI_API_KEY: apiKey, PYTHONIOENCODING: 'utf8' }
+        cwd: projectPath, env: { ...process.env, GEMINI_API_KEY: apiKey, PYTHONIOENCODING: 'utf8' }
     });
 
     runningProcesses.set(sessionId, agentProcess);
@@ -207,4 +216,4 @@ BẠN LÀ AI SOFTWARE ENGINEER CHUYÊN NGHIỆP. BẠN ĐANG ĐIỀU KHIỂN TER
     agentProcess.on('close', (c) => { runningProcesses.delete(sessionId); res.write(`\n\n=== FINISHED (${c}) ===\n`); res.end(); });
 });
 
-app.listen(3002, () => console.log(`🚀 Multi-Session Server: http://localhost:3002`));
+app.listen(3002, () => console.log(`🚀 Multi-Session AI Agent: http://localhost:3002`));
